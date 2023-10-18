@@ -1,3 +1,73 @@
 *{padding: 0; margin: 0;}
+.ff{
+	font-family: Poppins;
+}
 .top-bar{background: #fff; padding: 10px 100px;}
 .logo{width: 30%;}
+.banner{padding: 200px 0; background: url(../images/banner.webp); background-position: center; background-repeat: no-repeat;}
+.theme-btn i {
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background: #006834;
+	font-size: 17px;
+	color: #fff;
+	border-radius: 50%;
+	transition: all 900ms ease;
+}
+.fa-angle-right:after {
+	content: "\f105";
+}
+.theme-btn {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  font-size: 17px;
+  padding: 12px 60px 11px 30px;
+  background: #fff;
+  line-height: 25px;
+  color: #006834;
+  border: 1px solid #006834;
+  font-weight: 500;
+  border-radius: 30px;
+  text-transform: capitalize;
+  transition: all 500ms ease;
+  cursor: pointer;
+  z-index: 1;
+}
+.theme-btn:hover:after {
+	transform: scale(1, 1);
+	transform-origin: bottom left;
+}
+.theme-btn:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+	content: "";
+	background-color: #006834;
+	border-radius: 30px;
+	transform: scale(0, 1);
+	transform-origin: top right;
+	transition: transform 500ms;
+}
+.theme-btn:hover {
+	color: #fff;
+	text-decoration: none;
+}
+/*.elementor-background-overlay{
+	background-color: #1e1e1e;
+    opacity: 0.25;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}*/

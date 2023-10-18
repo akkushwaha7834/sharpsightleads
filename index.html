@@ -1,27 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Touchless LASIK Surgery in Delhi NCR | Get Free Cost Estimate</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-</head>
-<body>
-   
-   <section class="top-bar">
-       <div class="container-fluid">
-           <div class="row">
-               <div class="col-md-6">
-                   <img src="images/sharpsightlogo.webp" class="logo">
-               </div>
-               <div class="col-md-6"></div>
-           </div>
-       </div>
-   </section>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Touchless LASIK Surgery in Delhi NCR | Get Free Cost Estimate</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com" rel="preconnect">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;0,800;0,900;1,600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="top-bar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/sharpsightlogo.webp" class="logo">
+                    </div>
+                    <div class="col-md-6"></div>
+                </div>
+            </div>
+        </section>
+        <section class="banner">
+            <div class="elementor-background-overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4 class="ff">YOUR VISION, OUR PRIORITY</h4>
+                        <h2 class="ff">Book An Appointment For Lasik</h2>
+                        <button class="theme-btn" data-target="#myModal" data-toggle="modal" type="button">
+                            Book Now <i class="fa fa-calendar" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Pop Up -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content"><!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Request an Appointment</h4>
+                        <button class="close" data-dismiss="modal" type="button">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <form action="call_back.php" method="POST" name="Consult to Doctors">
+                            <div class="form-group">
+                                <input aria-describedby="emailHelp" class="form-control" id="your_name" name="your_name" placeholder="Enter Your Name" required="" type="text" />
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="mobile_number" name="mobile_number" placeholder="Enter Mobile No." required="" type="tel" />
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="email_id" name="email_id" placeholder="Enter Email Address" required="" type="email" />
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="cistomer_query" name="customer_query"placeholder="Your Query"></textarea>
+                            </div>
+                            <button class="btn btn-primary bttn_form" name="submit" type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     <script type="text/javascript" src="js/jquery.slim.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-
-</body>
+    </body>
 </html>
