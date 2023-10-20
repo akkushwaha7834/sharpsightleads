@@ -11,11 +11,14 @@
 .theme-btn:hover:after {transform: scale(1, 1);transform-origin: bottom left;}
 .theme-btn:after {position: absolute; left: 0; top: 0; z-index: -1; height: 100%; width: 100%; content: ""; background-color: #006834;border-radius: 30px;transform: scale(0, 1);transform-origin: top right;transition: transform 500ms;}
 .theme-btn:hover {color: #fff;text-decoration: none;}
-h2.ff{font-size: 50px; font-weight: 700; margin-bottom: 30px;}
+h2.ff{font-size: 45px; font-weight: 700; margin-bottom: 30px;}
 h4.ff{font-size: 20px; font-weight: 600; margin-bottom: 30px}
-.image-box{text-align: center;padding: 40px 20px;background: #fff;border-radius: 16px;}
+.image-box{text-align: center;padding: 40px 20px;background: #fff;border-radius: 16px; transition: 0.6s;}
 .image-box img{width: 25%;}
 .image-box h3{font-weight: 700; font-size: 25px;}
+.image-boxx{text-align: center;padding: 20px 20px;background: #fff;border-radius: 16px;  transition: 0.6s;}
+.image-boxx img{width: 25%;}
+.image-boxx h3{font-weight: 700; font-size: 25px;}
 .about-us{padding: 100px 0}
 .skill {padding: 10px;max-width: 80%;}
 .skill-name {font-weight: bold;}
@@ -45,3 +48,5 @@ h4.ff{font-size: 20px; font-weight: 600; margin-bottom: 30px}
 .container-fluid.cff{padding: 0 0 0 15%; overflow-x: hidden;}
 .why-choose-us .col-6-pointers{padding: 100px 0}
 .benefits-section {padding: 100px 0;background: #006834;}
+.image-box:hover {box-shadow: 5px 5px 14px 0px rgb(255 255 255);transition: 0.6s;border-radius: 20px;}
+.image-boxx:hover {box-shadow: 5px 5px 14px 0px rgb(0 104 52);transition: 0.6s;border-radius: 20px;}
