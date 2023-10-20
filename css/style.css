@@ -13,8 +13,9 @@
 .theme-btn:hover {color: #fff;text-decoration: none;}
 h2.ff{font-size: 50px; font-weight: 700; margin-bottom: 30px;}
 h4.ff{font-size: 20px; font-weight: 600; margin-bottom: 30px}
-.image-box{display: flex; align-items: center; justify-content: center;}
-.image-box img{width: 15%; padding: 10px; background-color: #fff}
+.image-box{text-align: center;padding: 40px 20px;background: #fff;border-radius: 16px;}
+.image-box img{width: 25%;}
+.image-box h3{font-weight: 700; font-size: 25px;}
 .about-us{padding: 100px 0}
 .skill {padding: 10px;max-width: 80%;}
 .skill-name {font-weight: bold;}
@@ -43,3 +44,4 @@ h4.ff{font-size: 20px; font-weight: 600; margin-bottom: 30px}
 .why-choose-us .col-6-image-sec{background: url(../images/Sharp-Sight-Better-Vision-Deserves-The-Latest-Technology.webp); background-position: cover; background-repeat: no-repeat; background-size: cover;}
 .container-fluid.cff{padding: 0 0 0 15%; overflow-x: hidden;}
 .why-choose-us .col-6-pointers{padding: 100px 0}
+.benefits-section {padding: 100px 0;background: #006834;}
