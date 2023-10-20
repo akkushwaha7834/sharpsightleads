@@ -1,73 +1,45 @@
 *{padding: 0; margin: 0;}
-.ff{
-	font-family: Poppins;
-}
-.top-bar{background: #fff; padding: 10px 100px;}
-.logo{width: 30%;}
-.banner{padding: 200px 0; background: url(../images/banner.webp); background-position: center; background-repeat: no-repeat;}
-.theme-btn i {
-	position: absolute;
-	top: -1px;
-	right: -1px;
-	width: 50px;
-	height: 50px;
-	line-height: 50px;
-	text-align: center;
-	background: #006834;
-	font-size: 17px;
-	color: #fff;
-	border-radius: 50%;
-	transition: all 900ms ease;
-}
-.fa-angle-right:after {
-	content: "\f105";
-}
-.theme-btn {
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
-  font-size: 17px;
-  padding: 12px 60px 11px 30px;
-  background: #fff;
-  line-height: 25px;
-  color: #006834;
-  border: 1px solid #006834;
-  font-weight: 500;
-  border-radius: 30px;
-  text-transform: capitalize;
-  transition: all 500ms ease;
-  cursor: pointer;
-  z-index: 1;
-}
-.theme-btn:hover:after {
-	transform: scale(1, 1);
-	transform-origin: bottom left;
-}
-.theme-btn:after {
-	position: absolute;
-	left: 0;
-	top: 0;
-	z-index: -1;
-	height: 100%;
-	width: 100%;
-	content: "";
-	background-color: #006834;
-	border-radius: 30px;
-	transform: scale(0, 1);
-	transform-origin: top right;
-	transition: transform 500ms;
-}
-.theme-btn:hover {
-	color: #fff;
-	text-decoration: none;
-}
-/*.elementor-background-overlay{
-	background-color: #1e1e1e;
-    opacity: 0.25;
-    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-}*/
+.ff{font-family: Poppins;}
+.top-bar{background: #fff; padding: 10px 0;}
+.container-fluid.cf {padding: 0 15%;}
+.logo{width: 17%;}
+.top-bar-buton{display: flex; justify-content: right; align-items: center;}
+.banner{padding: 12% 0; background: url(../images/banner.webp); background-position: center; background-repeat: no-repeat;}
+.theme-btn i {position: absolute; top: -1px; right: -1px; width: 50px; height: 50px; line-height: 50px; text-align: center; background: #006834; font-size: 17px; color: #fff; border-radius: 50%; transition: all 900ms ease;}
+.fa-angle-right:after {content: "\f105";}
+.theme-btn {position: relative;display: inline-block;overflow: hidden;font-size: 17px;padding: 12px 60px 11px 30px;background: #fff;line-height: 25px;color: #006834;border: 1px solid #006834;font-weight: 500;border-radius: 30px;text-transform: capitalize;transition: all 500ms ease;cursor: pointer;z-index: 1;}
+.theme-btn:hover:after {transform: scale(1, 1);transform-origin: bottom left;}
+.theme-btn:after {position: absolute; left: 0; top: 0; z-index: -1; height: 100%; width: 100%; content: ""; background-color: #006834;border-radius: 30px;transform: scale(0, 1);transform-origin: top right;transition: transform 500ms;}
+.theme-btn:hover {color: #fff;text-decoration: none;}
+h2.ff{font-size: 50px; font-weight: 700; margin-bottom: 30px;}
+h4.ff{font-size: 20px; font-weight: 600; margin-bottom: 30px}
+.image-box{display: flex; align-items: center; justify-content: center;}
+.image-box img{width: 15%; padding: 10px; background-color: #fff}
+.about-us{padding: 100px 0}
+.skill {padding: 10px;max-width: 80%;}
+.skill-name {font-weight: bold;}
+.skill-bar {background-color: #ccc;height: 20px;margin-top: 6px;border-radius: 5px;}
+.percentage {background-color: #166836;height: 100%;width: 0;border-radius: 5px;color: white;text-align: center;line-height: 20px; font-weight: bold;}
+/*footer{padding: 20px 0;}*/
+.footer_bt{border-top: 2px solid #166836; padding: 20px 0;}
+.footer_pd0{padding: 0!important;}
+.copyright{background: #166836; padding: 10px 0; text-align: center;}
+.cr_p{margin: 0;color: #fff;font-weight: 600;}
+.pop_bttn{margin-top: 40px;}
+#counter_sec{background-color: #ECEDEE; padding: 100px 0;}
+.counter-box {display: block;background: #f6f6f6;padding: 40px 20px 37px;text-align: center;transition: 0.3s;border-radius: 0;}
+.counter-box:hover{box-shadow: 5px 5px 14px 0px rgb(33 114 72);transition: 0.6s;border-radius: 20px;}
+.counter-box p {margin: 5px 0 0;padding: 0;color: #909090;font-size: 18px;font-weight: 500;}
+.counter-box i {font-size: 60px;margin: 0 0 15px;color: #217248;}
+.counter {display: block;font-size: 32px;font-weight: 700;color: #666;line-height: 28px;}
+.counter-box.colored {background: #3acf87;}
+.counter-box.colored p,.counter-box.colored i,.counter-box.colored .counter {color: #fff;}
+.faqs .accordion-button:not(.collapsed){background-color: #217248;color: #fff;font-weight: 600;}
+.faqs .accordion-button:focus{border-color: #217248;box-shadow: 0 0 0 0.08rem rgb(33 114 72);}
+.faqs .accordion-button:not(.collapsed)::after{	background-image: url(../images/arrow.png);transform: rotate(-180deg);}
+.why-choose-us{padding: ; background: #166836;}
+.banner_ul_treatment .banner_li {list-style: none;font-size: 17px;line-height: 40px;background: url(../images/white-tick.png) no-repeat left 11px;padding: 0 0 0px 30px;color: #fff}
+.banner_ul_treatment{padding: 0;}
+.why-choose-us .col-6-image-sec{background: url(../images/Sharp-Sight-Better-Vision-Deserves-The-Latest-Technology.webp); background-position: cover; background-repeat: no-repeat; background-size: cover;}
+.container-fluid.cff{padding: 0 0 0 15%; overflow-x: hidden;}
+.why-choose-us .col-6-pointers{padding: 100px 0}
