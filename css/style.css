@@ -16,7 +16,7 @@ h4.ff{font-size: 20px; font-weight: 600; margin-bottom: 30px}
 .image-box{text-align: center;padding: 40px 20px;background: #fff;border-radius: 16px; transition: 0.6s;}
 .image-box img{width: 25%;}
 .image-box h3{font-weight: 700; font-size: 25px;}
-.image-boxx{text-align: center;padding: 20px 20px;background: #fff;border-radius: 16px; border: 2px solid #166836;  transition: 0.6s;}
+.image-boxx{text-align: center;padding: 20px 20px;background: #fff;border-radius: 16px; border: 2px solid #166836;  transition: 0.6s; min-height: 340px}
 .image-boxx img{width: 25%;}
 .image-boxx h3{font-weight: 700; font-size: 25px;}
 .about-us{padding: 100px 0}
