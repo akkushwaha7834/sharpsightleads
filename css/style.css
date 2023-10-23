@@ -54,3 +54,4 @@ h4.ff{font-size: 20px; font-weight: 600; margin-bottom: 30px}
 .row.services_row_two{margin-top: 50px;}
 .services-section p{text-align: justify;}
 .services-section{text-align: justify;}
+.book_now_section{background: url(../images/book-now.png); background-position: center;background-repeat: no-repeat; background-size: cover; padding: 100px 0;}
