@@ -1,7 +1,8 @@
 *{padding: 0; margin: 0;}
 .ff{font-family: Poppins;}
 .top-bar{background: #fff; padding: 10px 0;}
-.container-fluid.cf {padding: 0 15%;}
+.container-fluid.cf {max-width: 1350px;}
+.container-fluid.cff{max-width: 1350px;}
 .logo{width: 17%;}
 .top-bar-buton{display: flex; justify-content: right; align-items: center;}
 .banner{padding: 12% 0; background: url(../images/banner.webp); background-position: center; background-repeat: no-repeat;}
@@ -48,8 +49,7 @@ h4.ff{font-size: 20px; font-weight: 600; margin-bottom: 20px}
 .banner_ul_treatment .banner_li {list-style: none;font-size: 17px;line-height: 40px;background: url(../images/white-tick.png) no-repeat left 11px;padding: 0 0 0px 30px;color: #fff}
 .banner_ul_treatment{padding: 0;}
 .why-choose-us .col-6-image-sec{background: url(../images/Sharp-Sight-Better-Vision-Deserves-The-Latest-Technology.webp); background-position: center; background-repeat: no-repeat; background-size: cover;}
-.container-fluid.cff{padding: 0 0 0 15%; overflow-x: hidden;}
-.why-choose-us .col-6-pointers{padding: 100px 20px}
+.why-choose-us .col-6-pointers{padding: 100px 0}
 .benefits-section {padding: 100px 0;background: #006834;}
 .image-box:hover {box-shadow: 5px 5px 14px 0px rgb(255 255 255);transition: 0.6s;border-radius: 20px;}
 .image-boxx:hover {box-shadow: 5px 5px 14px 0px rgb(0 104 52);transition: 0.6s;border-radius: 20px;}
@@ -73,3 +73,4 @@ h4.ff{font-size: 20px; font-weight: 600; margin-bottom: 20px}
 .testimonial-slider {padding: 50px 0;background: #156836;color: #fff;}
 .ourapproach{padding: 100px 0;background: #156736}
 .ourapproach .image-box h3{margin: 15px 0}
+.test_image{width: 70%}
