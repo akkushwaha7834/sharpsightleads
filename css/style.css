@@ -133,7 +133,7 @@ h4.ff {
     border-radius: 16px;
     border: 2px solid #166836;
     transition: 0.6s;
-    min-height: 340px
+    height: 100%;
 }
 
 .image-boxx img {
@@ -331,16 +331,6 @@ h4.ff {
 
 .services-section {
     padding: 80px 0;
-}
-
-
-
-.services-section p {
-    text-align: justify;
-}
-
-.services-section {
-    
 }
 
 .book_now_section {
