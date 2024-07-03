@@ -115,6 +115,8 @@ h4.ff {
     background: #fff;
     border-radius: 16px;
     transition: 0.6s;
+    height: 100%;
+
 }
 
 .image-box img {
@@ -428,40 +430,65 @@ button.close {
     border: 0;
     color: #fff;
 }
-@media(min-width:768px){
+
+@media(min-width:768px) {
     .logo {
         width: 15%;
     }
 }
-@media(max-width:767.98px){
+
+
+
+@media(max-width:767.98px) {
     .logo {
         width: 25%;
     }
+
     .book-image {
         width: 100%;
     }
+
     .skill {
         max-width: 100%;
     }
+
     h2.ff {
-        font-size: 30px;}
-        .test_image {
-            width: 100%;
-        }
+        font-size: 30px;
+    }
+
+    .test_image {
+        width: 100%;
+    }
 }
-@media(max-width:575.98px){
+
+@media(max-width:575.98px) {
     .logo {
         width: 33%;
     }
-    .theme-btn {        
+
+    .theme-btn {
         padding: 10px 60px 10px 20px;
     }
+
     .theme-btn i {
-       
+
         width: 47.6px;
         height: 47.6px;
     }
+
     .skill {
         max-width: 100%;
+    }
+
+    .image-box h3 {
+        font-weight: 700;
+        font-size: 17px;
+    }
+    .xs-width .row .col-sm-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .counter {
+        font-size: 27px;
     }
 }
