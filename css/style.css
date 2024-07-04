@@ -311,7 +311,8 @@ h4.ff {
 }
 
 .why-choose-us .col-6-pointers {
-    padding: 80px 15px
+    padding: 80px 15px;   
+    padding-left: 5.75%;
 }
 
 .benefits-section {
@@ -344,7 +345,7 @@ h4.ff {
 }
 
 .bookform {
-    padding: 58px 30px;
+    padding: 30px 30px;
     background: #fff;
     border-radius: 16px
 }
@@ -436,7 +437,13 @@ button.close {
         width: 15%;
     }
 }
+@media(max-width:1340.98px){
+    .why-choose-us .col-6-pointers {
+        
+        padding-left: 15px;
+    }
 
+}
 
 
 @media(max-width:767.98px) {
