@@ -15,7 +15,7 @@
     <body>
         <!-- Top Bar Start -->
         <section class="top-bar">
-            <div class="container-fluid cf">
+            <div class="container">
                 <div class="d-flex align-items-center justify-content-between">
                         <img src="images/sharpsightlogo.webp" class="logo">
                 
@@ -31,26 +31,52 @@
         <!-- Top Bar End -->
 
         <!-- Banner Start -->
-        <section class="banner">
-            <div class="container-fluid cf">
+        <section class="banner position-relative">
+            <!-- <div class="container ">
+            <img src="images/banner.jpg" alt="" class="w-100">
+         
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="banner-content">
+                        <div class="banner-content position-abslutue">
                             <h4 class="ff text-white">Your Vision, Our Priority</h4>
-                            <h2 class="ff text-white">Book An Appointment For Lasik</h2>
+                            <h2 class="ff text-white">Book An Appointment For Lasik Treatment</h2>
                             <button class="theme-btn  mt-4" data-target="#myModal" data-toggle="modal" type="button">
                                 Book Now <i class="fa fa-calendar" aria-hidden="true"></i>
                             </button>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+               
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/banner.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <div class="banner-content">
+                            <div class="row">
+                                <div class="col-md-8">
+                            <h4 class="ff text-white">Your Vision, Our Priority</h4>
+                            <h2 class="ff text-white">Book An Appointment For Lasik Treatment</h2>
+                            <button class="theme-btn d-none d-md-inline-block mt-4" data-target="#myModal" data-toggle="modal" type="button" fdprocessedid="g3jv">
+                                Book Now <i class="fa fa-calendar" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                  </div>
+                 
+               
+                </div>
+             
+              </div>
         </section>
         <!-- Banner End -->
 
         <!-- Benefit Start -->
         <section class="benefits-section">
-            <div class="container-fluid cf">
+            <div class="container">
                 <div class="row g-4">
                     <div class="col-md-6">
                         <h4 class="ff text-white">Benefit</h4>
@@ -86,7 +112,7 @@
 
         <!-- About Us Start -->
         <section class="about-us">
-            <div class="container-fluid cf">
+            <div class="container">
                 <div class="row g-4">
                     <div class="col-md-6">
                         <img src="images/image1.png" width="75%">
@@ -153,7 +179,7 @@
 
         <!-- services Start -->
         <section class="services-section">
-            <div class="container-fluid cf">
+            <div class="container">
                 <div class="row ">
                     <div class="col-md-6">
                         <h4 class="ff">Services</h4>
@@ -164,25 +190,32 @@
                     </div>
                 </div>
                 <div class="row mt-4 g-4 services_row_two">
-                    <div class="col-md-4">
+                    <div class="col-lg-3 col-md-6">
                         <div class="image-boxx">
                             <img src="images/surgeons.webp">
                             <h3>LASIK</h3>
                             <p>Laser assisted in situ keratomileusis is a corneal flap based procedure for correction of refractive error in eye. It can be used in patients with myopia, hypermetropia and astigmatism at ease. </p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-3 col-md-6">
                         <div class="image-boxx">
                             <img src="images/eye.webp">
                             <h3>FEMTO LASIK</h3>
                             <p>Blade-free LASIK Eye Surgery is a leap ahead of Traditional LASIK Surgery where a Femtosecond laser is used to create a precise flap. while in the Traditional blade LASIK technique, the flap is made by hand.</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-3 col-md-6">
                         <div class="image-boxx">
                             <img src="images/microscope.webp">
                             <h3>TOUCHLESS LASIK</h3>
                             <p>This method is biomechanically superior to flap-based Lasik in lower refractive errors, and the surgery gets completed in a single step only. It is safe for patients with thin cornea and bilateral eyes are treated in the same session.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="image-boxx">
+                            <img src="images/microscope.webp">
+                            <h3>IPCL</h3>
+                            <p>Implantable Phakic Contact Lens is most suitable for the patients who cannot undergo LASIK or PRK due to thin corneal profile or extreme refractive error. IPCLs are surgically implanted directly into the eye.</p>
                         </div>
                     </div>
                 </div>
@@ -194,7 +227,7 @@
         <!-- Book Now Start -->
 
         <section class="book_now_section">
-            <div class="container-fluid cf">
+            <div class="container">
                 <div class="row g-4">
                     <div class="col-md-6">
                         <div class="bookform">
@@ -207,10 +240,7 @@
                                 </div>
                                 <div class="form-group">
                                     <input class="form-control" id="mobile_number" name="mobile_number" placeholder="Enter Mobile No." required="" type="tel" />
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" id="email_id" name="email_id" placeholder="Enter Email Address" required="" type="email" />
-                                </div>
+                                </div>                               
                                 <div class="form-group">
                                     <select class="form-select" aria-label="Default select example">
                                         <option selected>Select City</option>
@@ -242,14 +272,16 @@
 
         <!-- Testimonial Start -->
         <section class="testimonial_section">
-            <div class="container-fluid cf">
+            <div class="container">
                 <div class="row g-4">
                     <div class="col-md-6 text-center">
+                        
                         <img src="images/image2.png" class="test_image">
+                   
                     </div>
                     <div class="col-md-6 align-self-center">
                         <h4 class="ff">Testimonial</h4>
-                        <h2 class="ff">What They Say About Sharp Sight</h2>
+                        <h2 class="ff mb-3">What They Say About Sharp Sight</h2>
                         <div class="testimonial-slider mt-4">
                             <div class="container">
                                 <div id="mycarousel" class="carousel slide" data-bs-ride="carousel">
@@ -316,7 +348,7 @@
         <!-- Video Section Start -->
 
         <section class="video_section">
-            <div class="container-fluid cf">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <h2 class="ff text-center">Touchless Lasik Surgery</h2>
@@ -325,11 +357,11 @@
                 </div>
                 <div class="row g-4 mt-4">
                     <div class="col-md-6">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/Mmsz8YxZ2TY?si=EJhYgGXbtnMTE2pJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/Mmsz8YxZ2TY?si=DT664IZRsmbMFghd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
                     </div>
                     <div class="col-md-6">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/Mmsz8YxZ2TY?si=SCf_HirNX_BKZ6Fm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/SB4-S-uUlS4?si=Aw_6gTn52lFVmgtL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="row text-center mt-5">
@@ -378,7 +410,7 @@
         <!-- Factoids End -->
 
         <section class="ourapproach xs-width">
-            <div class="container-fluid cf">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <h4 class="ff text-white text-center">Our Approach</h4>
@@ -391,13 +423,13 @@
                     <div class="col-md-4 col-sm-6">
                         <div class="image-box">
                             <img src="images/mobile.webp">
-                            <h3>Make An Appointment</h3>
+                            <h3>Book An Appointment</h3>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <div class="image-box">
                             <img src="images/eye.webp">
-                            <h3>General Check Up</h3>
+                            <h3>Lasik Workup</h3>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
@@ -413,7 +445,7 @@
 
         <!-- FAQS Start -->
         <section class="faqs">
-            <div class="container-fluid cf">
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <h2 class="ff text-center">
@@ -435,7 +467,7 @@
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                               <div class="accordion-body">
-                                <p>Lasik is the latest vision corrective surgery for a very delicate part of the eye. Millions of people have tried this latest procedure and corrected their vision within 5-7 days. If you’re wearing glasses and contact lenses, you must be thinking about this surgery to get rid of glasses and contact lenses.</p>
+                                <p>Lasik is the latest vision corrective surgery for a very delicate part of the eye. Millions of people have tried this latest procedure and corrected their vision within a few weeks. If you’re wearing glasses and contact lenses, you must be thinking about this surgery to get rid of glasses and contact lenses.  </p>
                               </div>
                             </div>
                           </div>
@@ -447,7 +479,7 @@
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                               <div class="accordion-body">
-                                <p>Patients normally prefer to have both eyes treated in one sitting.</p>
+                                <p>Patients normally prefer to have both eyes treated at one sitting, however, if the patient feels comfortable getting one eye treated at each session, this too can be done.</p>
                               </div>
                             </div>
                           </div>
@@ -459,7 +491,7 @@
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                               <div class="accordion-body">
-                                <p>With the latest techniques and world-class equipment, LASIK eye surgery is considered to be one of the safest ways to get rid of glasses. But, like any surgical procedure, LASIK surgery too can pose certain side effects which include dry eyes and glare which are temporary and will eventually subside as the eye heals within a month .</p>
+                                <p>With the latest techniques and world-class equipment, LASIK eye surgery is considered to be one of the safest ways to get rid of glasses. But, like any surgical procedure, LASIK surgery too can pose certain side effects which include dry eyes, burning eyes, decreased visual clarity in dim light conditions, etc. However, these side effects are temporary and will eventually disappear as the eye heals.</p>
                               </div>
                             </div>
                           </div>
@@ -471,19 +503,19 @@
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                               <div class="accordion-body">
-                                <p>Many of us think that summer is not the ideal season to get Lasik surgery done because of rising temperatures and humidity, while some believe that winters are the perfect time to get Lasik surgery done because of cooler temperatures. But, adding to this point is every season fine for Lasik surgery as there are no major post-surgery precautions. So, whether it is summer or winter both are ideal seasons for the Lasik procedure.</p>
+                                <p>Many of us think that summer is not the ideal season to get Lasik surgery done because of rising temperatures and humidity so probably most people avoid this season for any kind of surgery some believe that winters are the perfect time to get Lasik surgery done because of cooler temperatures. But, adding to this point that every season is fine for Lasik surgery but you really need to understand the post-surgery precautions deeply. So, whether it is summer or winter both are ideal seasons for the Lasik procedure. </p>
                               </div>
                             </div>
                           </div>
                           <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFive">
                               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                What happens post-LASIK eye surgery?
+                                What happens post LASIK eye surgery?
                               </button>
                             </h2>
                             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                               <div class="accordion-body">
-                                <p>LASIK is a daycare procedure and therefore, post-surgery you are allowed to go home on the same day. Antibiotic and Lubricant drops are administered post operatively . The whole procedure takes around 10-15minutes only. Visual recovery may vary from a few hours to a few days until it gets stabilized. However, you will be allowed to return to your normal activities within 2-3 days following surgery. Follow-up and aftercare visits are to be adhered to strictly as per your surgeon’s directions.</p>
+                                <p>LASIK is a day care procedure and therefore, post-surgery you are allowed to go home on the same day. Antibiotic and anti-inflammatory drops are administered along with temporary padding over the eyes so as to avoid any kind of eye infection. The whole procedure takes around 30 minutes only. Visual recovery may vary from a few hours to a few days until it gets stabilized. However, you will be allowed to return to your normal activities within 2-3 days following surgery. Follow-up and aftercare visits are to be adhered strictly as per your surgeon’s directions.</p>
                               </div>
                             </div>
                           </div>
@@ -495,7 +527,7 @@
                             </h2>
                             <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                               <div class="accordion-body">
-                                <p>A second, or enhancement procedure can be performed to provide additional correction very rarely if required only if some residual refractive error after 2 months . However, most people do not require additional surgery.</p>
+                                <p>A second, or enhancement procedure can be performed to provide additional correction, especially if the objective of the surgery is not met during the first time. However, most people do not require additional surgery.</p>
                               </div>
                             </div>
                           </div>
@@ -509,7 +541,7 @@
         <!-- Footer Start-->
         <footer>
             <section class="top-bar">
-                <div class="container-fluid cf">
+                <div class="container">
                     <div class="d-flex align-items-center justify-content-between" style="border-top: 2px solid #166836;padding-top: 12px;">
                             <img src="images/sharpsightlogo.webp" class="logo">
                     
@@ -523,7 +555,7 @@
               
             </section>
             <section class="copyright">
-                <div class="container-fluid cf">
+                <div class="container">
                     <div class="row">
                         <div class="col-md-12">
                             <p class="cr_p">Copyright © 2023. All rights reserved.</p>
@@ -551,9 +583,7 @@
                             <div class="form-group">
                                 <input class="form-control" id="mobile_number" name="mobile_number" placeholder="Enter Mobile No." required="" type="tel" />
                             </div>
-                            <div class="form-group">
-                                <input class="form-control" id="email_id" name="email_id" placeholder="Enter Email Address" required="" type="email" />
-                            </div>
+
                             <div class="form-group">
                                 <select class="form-select" aria-label="Default select example">
                                     <option selected>Select City</option>
