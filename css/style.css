@@ -37,7 +37,7 @@
     right: unset;
     bottom: unset;
     left: 6.9% !important;
-    top: 6.25rem !important;
+    top: 14.25rem !important;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
     color: #fff;
@@ -300,14 +300,17 @@ h4.ff {
 .why-choose-us {
     background: #166836;
 }
-
+.banner_ul_treatment{
+    margin-top: 20px;
+}
 .banner_ul_treatment .banner_li {
     list-style: none;
     font-size: 17px;
-    line-height: 40px;
+    line-height: 27px;
     background: url(../images/white-tick.png) no-repeat left 11px;
     padding: 0 0 0px 30px;
-    color: #fff
+    color: #fff;
+    margin-bottom: 10px;
 }
 
 .banner_ul_treatment {
@@ -354,9 +357,13 @@ h4.ff {
     background-size: cover;
     padding: 80px 0;
 }
-
+.bg-img{
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .bookform {
-    padding: 58px 30px;
+    padding: 46px 30px;
     background: #fff;
     border-radius: 16px
 }
@@ -449,14 +456,20 @@ button.close {
     border: 0;
     color: #fff;
 }
-
+.banner-content{
+    padding: 35% 0px;
+}
 @media (min-width:1024px) and (max-width:1199.09px) {
     .carousel-caption {
-        left: 5.9% !important;
-        top: 4.25rem !important;
+        
+        top: 6.25rem !important;
     }
 }
-
+@media (min-width:992px) and (max-width:1023.98px) {
+    .carousel-caption {    
+        top: 6.25rem !important;
+    }
+}
 @media(min-width:768px) {
     .logo {
         width: 15%;
@@ -479,8 +492,11 @@ button.close {
 
     .carousel-caption {
         left: 10% !important;
-        top: 2.25rem !important;
+        top: 4.5rem !important;
 
+    }
+    .banner-content{
+        padding: 25% 0px;
     }
 }
 
@@ -504,6 +520,14 @@ button.close {
     .test_image {
         width: 100%;
     }
+    .carousel-caption {
+        left: 7% !important;;
+          top: 2.5rem !important;
+
+    }
+    .ww-100{
+        width: 100% !important;
+    }
 }
 
 @media(min-width:425px) and (max-width:575.98px) {
@@ -516,6 +540,12 @@ button.close {
 }
 
 @media(max-width:575.98px) {
+    .banner-content {
+        padding: 15% 0px;
+    }
+    .banner.bg-img{
+        background-position: left;
+    }
     .logo {
         width: 33%;
     }
@@ -552,17 +582,21 @@ button.close {
         left: 2.5% !important;
         top: 1.25rem !important;
     }
-
+    .carousel-inner img{
+    min-height: 300px;
+    object-fit: cover;
+    }
 }
+
 
 @media(max-width:424.98px) {
     .carousel-caption {
         left: 2.5% !important;
-        top: 0rem !important;
+        top: 2.5rem !important;
     }
 
     .banner-content h2.ff {
-        font-size: 21px;
+        font-size: 26px !important;
     }
 
 }

@@ -16,10 +16,10 @@ function updateSkill(skillName, targetPercentage) {
 }
 
 // Example: Increase HTML skill to 80% over 3 seconds
-updateSkill("cs", 90);
+updateSkill("cs", 95);
 
 // Example: Increase CSS skill to 70% over 3 seconds
-updateSkill("ss", 95);
+updateSkill("ss", 98);
 
 // Example: Increase JavaScript skill to 90% over 3 seconds
-updateSkill("dr", 85);
+updateSkill("dr", 92);
