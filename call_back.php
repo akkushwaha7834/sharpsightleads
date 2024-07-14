@@ -14,6 +14,6 @@ if(isset($_POST['submit'])){
     $headers2 = "From:" . $email_to;
     mail($email_to,$subject,$message,$headers);
     echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
-    header('Location: thank-you-srinagar.html');
+    header('Location: thank-you.html');
     }
 ?>
